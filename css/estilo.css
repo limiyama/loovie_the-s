@@ -1,0 +1,428 @@
+body, html {
+    overflow-x: hidden;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+/* nav */
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    background-color: #050505;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(63, 63, 63, 0.1);
+    font-size: 16px;
+    position: fixed;
+}
+
+.nav {
+    width: 100%;
+    margin: 14px;
+}
+ 
+.nav-conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-nome {
+    color: #9D0208;
+    font-weight: 700;
+}
+  
+.nav-lista {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    padding-top: 0;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #F5BC00;
+}
+
+#navbarimg {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    width: 100%;
+}
+
+#particles-js {
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+}
+
+.main {
+    color: #fff;
+    background-color: #050505;
+}
+
+.m-loovie {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+#telas {
+    height: 500px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* aba loovie */
+.s-loovie {
+    background-image: linear-gradient(to bottom right, #390405 , #9D0208);
+    color: #fff;
+    height: auto;
+    position: relative;
+    
+}
+
+#img-loovie {
+    height: 350px;
+}
+
+.center {
+    text-align: center;
+}
+#check {
+    width: 25px;
+    height: 25px
+}
+
+.checks {
+    display: flex;
+}
+
+/* aba equipe */
+.s-equipe {
+    background-image: linear-gradient(to bottom right, #390405 , #9D0208);
+    color: #fff;
+    position: relative;
+    height: auto;
+}
+
+.cards {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 46px;
+}
+
+.card-linha {
+    display: flex;
+}
+
+.card {
+    color:#fff;
+    margin: 15px;
+    background-color: #9D0208;
+    
+}
+
+#equipe-ft {
+    width: 200px;
+    height: 200px;
+}
+
+.card-block {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+
+/* efeito card */
+.card-container {
+    perspective: 700px;
+  }
+
+.card-flip {
+    position: relative;
+    transform-style: preserve-3d;
+    height: auto;
+    transition: all 0.5s ease-out;
+    border: none;
+  }
+  
+.card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    border: none;
+  }
+  
+.card-flip .front {
+    z-index: 1;
+  }
+  
+.card-flip .back {
+    position: relative;
+    z-index: 0;
+    transform: rotateY(-180deg);
+  }
+  
+.card-container:hover .card-flip {
+    transform: rotateY(180deg);
+  }
+  
+/* aba perguntas */
+.s-pergunta {
+    /* background-image: linear-gradient(to bottom right, #390405 , #9D0208); */
+    background-color: #050505;
+    color: #fff;
+    height: auto;
+    position: relative;
+
+}
+
+#pergunta-phone {
+    height: 500px;
+}
+
+.pergunta-p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.resposta-p {
+    margin-bottom: 60px;
+}
+
+/* aba fale conosco */
+.s-fcg {
+    background-color: #050505;
+    color: #fff;
+    height: auto;
+    position: relative;
+
+}
+
+.forms:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.btn-form {
+    background-image: linear-gradient(to right, #390405 , #9D0208);
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    width: 100%;
+    border-width: 0;
+    
+}
+
+.row {
+    flex-wrap: nowrap;
+}
+
+.linha {
+    padding: 72px;
+}
+
+.esq {
+    width: 32%;
+    text-align: left;
+}
+
+.dir {
+    width: 32%;
+    text-align: right;
+}
+
+.cen {
+    width: 32%;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-top: 72px;
+}
+
+.loovie {
+    color: #9D0208;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #660708;
+    width: 100%;
+    height: 30px;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.footer-p {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 10px;
+        height: 40px;
+        padding: 0 10px;
+    }
+
+    .navbar {
+        padding: 0 10px;
+        height: 60px;
+    }
+
+    .nav {
+        margin: 6px;
+    }
+
+    .nav-item {
+        font-size: 10px;
+        margin: 3px;
+    }
+    
+    .nav-link {
+        padding: 2px 5px;
+    }
+
+    #navbarimg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    #telas {
+        height: 150px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .loovie {
+        font-size: 18px;
+        margin-top: 60px;
+    }
+
+    #check {
+        width: 12px;
+        height: 12px;
+    }
+
+    #img-loovie {
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    i {
+        font-size: 8px;
+    }
+
+    .linha {
+        padding: 30px
+    }
+
+    #equipe-ft {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card {
+        margin: 10px
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .pergunta-p {
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    .resposta-p {
+        margin-bottom: 20px;
+    }
+
+    #pergunta-phone {
+        height: 150px;
+    }
+
+    .footer-p {
+        font-size: 10px;
+    }
+
+    .forms:-ms-input-placeholder  {
+        font-size: 10px;
+      }
+
+    .forms::-webkit-input-placeholder {
+        font-size: 10px;
+      }
+
+    .forms:-moz-placeholder {
+        font-size: 10px;
+      }
+
+      .btn-form {
+        font-size: 10px;
+      }
+}

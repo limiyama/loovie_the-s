@@ -124,8 +124,8 @@ p {
 }
 
 #iconsl {
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 15px;
 }
 
@@ -363,7 +363,7 @@ p {
     }
 
     h5 {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     p {
@@ -376,6 +376,15 @@ p {
 
     .linha {
         padding: 30px
+    }
+
+    .card-title {
+        margin-bottom: 4px;
+    }
+
+    #iconsl {
+        height: 64px;
+        width: 64px;
     }
 
     #equipe-ft {

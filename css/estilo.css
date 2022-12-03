@@ -107,6 +107,10 @@ p {
     margin-bottom: 4%;
 }
 
+#googleplay {
+    width: 30%;
+}
+
 /* aba loovie */
 .s-loovie {
     background-color: #660708;
@@ -213,6 +217,23 @@ p {
     line-height: 28px;
   }
   
+  
+.row-valores {
+    padding: 28px 70px 70px
+}
+
+  .valores-title {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .valores-p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 60px;
+  }
   
 /* aba perguntas */
 .s-pergunta {
@@ -409,6 +430,11 @@ p {
         height: 64px;
         width: 64px;
     }
+
+    #googleplay {
+        width: 80%;
+    }
+    
 
     #equipe-ft {
         width: 80px;

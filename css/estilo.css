@@ -259,6 +259,10 @@ p {
     margin-bottom: 60px;
 }
 
+.linha-perguntas {
+    padding: 30px
+  }
+
 /* aba fale conosco */
 .s-fcg {
     background-color: #0F0C0C;
@@ -402,7 +406,7 @@ p {
         font-size: 18px;
     }
 
-    h3 {
+    h3, .valores-title {
         font-size: 14px;
     }
 
@@ -412,6 +416,15 @@ p {
 
     p {
         font-size: 8px;
+    }
+
+    .valores-p {
+        font-size: 8px;
+        margin-bottom: 30px;
+    }
+
+    .row-valores {
+        padding: 28px 30px 30px;
     }
 
     i {
@@ -441,6 +454,9 @@ p {
         height: 80px;
     }
 
+    .cards {
+        margin-bottom: 20px;
+    }
     .card {
         margin: 10px
     }
@@ -486,5 +502,17 @@ p {
 
       .btn-form {
         font-size: 10px;
+      }
+
+      .title {
+        margin-top: 40px;
+      }
+
+      .linha-perguntas {
+        padding: 0px 15px 10px
+      }
+
+      .esq, .dir {
+        margin-top: 10px;
       }
 }

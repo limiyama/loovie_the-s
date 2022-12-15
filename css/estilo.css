@@ -437,6 +437,7 @@ p {
 
     .card-title {
         margin-bottom: 4px;
+        line-height: normal;
     }
 
     #iconsl {
